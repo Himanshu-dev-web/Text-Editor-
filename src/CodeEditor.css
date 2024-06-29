@@ -1,0 +1,46 @@
+.code-editor {
+    display: block;
+    position: relative;
+    font-family: monospace;
+    line-height: 1.5;
+    width: 500px;
+    border: 1px solid #ccc;
+    background-color: #f5f2f0;
+    border-radius: 4px; /* Added rounded corners */
+    overflow: hidden; /* Ensures content stays inside the container */
+  }
+  
+  .code-editor textarea {
+    background-color: transparent;
+    color: transparent;
+    caret-color: black;
+    padding: 10px;
+    margin: 0;
+    font-size: inherit;
+    font-family: inherit;
+    line-height: inherit;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none; /* Removes default outline */
+    box-sizing: border-box; /* Ensures padding is included in the width */
+  }
+  
+  .code-editor code {
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin: 0;
+    font-size: inherit;
+    font-family: inherit;
+    line-height: inherit;
+    background-color: transparent;
+    color: black; /* Ensures code is visible */
+    white-space: pre-wrap; /* Allows code to wrap */
+    box-sizing: border-box; /* Ensures padding is included in the width */
+  }
+  
